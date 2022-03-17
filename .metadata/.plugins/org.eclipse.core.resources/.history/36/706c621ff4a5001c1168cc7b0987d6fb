@@ -1,0 +1,50 @@
+package Application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter department's name: ");
+		String departament = sc.nextLine();
+		System.out.print("Enter worker data: ");
+		
+		System.out.print("Name: ");
+		String name = sc.nextLine();
+		System.out.print("How many contratcs to this worker ");
+		int manyContracts = sc.nextInt();
+		
+		System.out.println("Enter contract #1 data:");
+		System.out.print("Date (DD/MM/YYYY): ");
+		System.out.print("Value per hour: ");
+		double valueHour = sc.nextDouble();
+		System.out.print("Duration (hours): ");
+		double durationHours = sc.nextDouble();
+		
+		System.out.println("Enter contract #2 data:");
+		System.out.print("Date (DD/MM/YYYY): ");
+		System.out.print("Value per hour: ");
+		double valueHour2 = sc.nextDouble();
+		System.out.print("Duration (hours): ");
+		double durationHours2 = sc.nextDouble();
+		
+		System.out.println("Enter contract #3 data:");
+		System.out.print("Date (DD/MM/YYYY): ");
+		System.out.print("Value per hour: ");
+		double valueHour3 = sc.nextDouble();
+		System.out.print("Duration (hours): ");
+		double durationHours3 = sc.nextDouble();
+		
+		
+		
+		
+		sc.close();
+
+	}
+
+}
